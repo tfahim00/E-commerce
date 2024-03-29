@@ -1,0 +1,280 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.active {
+    color: #ffa500;
+}
+
+/* Header styles */
+header {
+    background-color: #555555;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F9F9F9;
+    font-weight: bold;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Featured items section */
+#featured-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#featured-items article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#featured-items img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#featured-items h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#featured-items p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+#featured-items button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#featured-items button:hover {
+    background-color: #0056b3;
+}
+
+/* Women items section */
+#women-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#women-items article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#women-items img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#women-items h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#women-items p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+#women-items button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#women-items button:hover {
+    background-color: #0056b3;
+}
+
+/* men items section */
+#men-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#men-items article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#men-items img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#men-items h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#men-items p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+#men-items button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#men-items button:hover {
+    background-color: #0056b3;
+}
+
+/* kids items section */
+#kids-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#kids-items article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#kids-items img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#kids-items h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#kids-items p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+#kids-items button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#kids-items button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer>a>i{
+    font-size: 30px;
+    margin: 15px 30px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #555; /* Dark background color */
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Light background color */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;} /* Light gray background on hover */
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #777;} /* Darker background color on hover */
+  
